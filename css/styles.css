@@ -1,0 +1,22 @@
+#footer {
+  min-height: 160px;
+  margin-top: 40px;
+  padding-top: 80px;
+  background-color: #DDD;
+}
+
+#midsection {
+  background-color: #efcd99;
+  border-radius: 10px;
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
+#blog-background {
+  padding: 20px;
+  background-color: #DDD
+}
+
+ul a {
+  text-decoration: none;
+}
