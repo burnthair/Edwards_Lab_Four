@@ -70,6 +70,7 @@
             <h4>get around</h4>
             <ul>
               <a href=""><li>HOME</li></a>
+              <a href=""><li>BLOG POSTS</li></a>
               <a href=""><li>ABOUT</li></a>
               <a href=""><li>CONTACT</li></a>
               <a href=""><li>BOX OF FAME</li></a>
@@ -81,20 +82,23 @@
         <div class="row">
           <div class="col-md-12">
             <h4>our latest poll</h4>
-            <h3>What is your favorite box material?</h3>
-            <div class="dropdown">
-              <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Choose Here
-                <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dLabel">
-                <li>Cardboard</li>
-                <li>Wood</li>
-                <li>Silicone</li>
-                <li>Poly</li>
-                <li>Styrofoam</li>
-                <li>Other</li>
-              </ul>
+            <div id="poll">
+              <h5>What is your favorite box material?</h5>
+              <div class="dropdown">
+                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Choose Here
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                  <li>Cardboard</li>
+                  <li>Wood</li>
+                  <li>Silicone</li>
+                  <li>Poly</li>
+                  <li>Styrofoam</li>
+                  <li>Other</li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-lg" id="submit-button">Submit</button>
             </div>
           </div>
         </div>
@@ -108,7 +112,8 @@
           <h3><em>Outside</em> the box? <strong>No way José.</strong></h3>
           <h5>by: Brad Boxberger</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laboriosam facilis rem incidunt saepe, ipsum corporis deserunt doloremque voluptatem minus sed, provident quia ducimus necessitatibus ut, mollitia fugit totam laudantium.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laboriosam facilis rem incidunt saepe, ipsum corporis deserunt doloremque voluptatem minus sed, provident quia ducimus necessitatibus ut, mollitia fugit totam laudantium.</p>
+          <img src="./img/box4.jpg" alt="Thinking outside the box." class="img-responsive" id="inline-img">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laboriosam facilis rem incidunt saepe, ipsum corporis deserunt doloremque voluptatem minus sed, provident quia ducimus necessitatibus ut, mollitia fugit totam laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptatibus deserunt eligendi doloremque iure mollitia vero sunt, dolorum expedita voluptatem atque officia a placeat accusantium eveniet incidunt perspiciatis inventore velit.</p>
         </div>
       </div>
     </div>
@@ -116,12 +121,12 @@
     <!-- copyright -->
     <div class="row" id="footer">
       <div class="col-md-6 text-center">
-        <p><span class="glyphicon glyphicon-copyright-mark"></span> Tha Box Fiends 2017</p>
+        <p><span class="glyphicon glyphicon-copyright-mark"></span> 2017 Tha Box Fiends</p>
       </div>
 
     <!-- contact -->
-      <div class="col-md-6">
-        <p><span class="glyphicon glyphicon-inbox"></span> Send something to my inBOX: boxinabox@boxblog.co</p>
+      <div class="col-md-6 text-center">
+        <p><span class="glyphicon glyphicon-inbox"></span> Send something to my inBOX: <a href="mailto:boxinabox@boxblog.co">boxinabox@boxblog.co</a></p>
       </div>
     </div>
   </div>

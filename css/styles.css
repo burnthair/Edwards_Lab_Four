@@ -1,9 +1,10 @@
-#footer {
-  min-height: 160px;
-  margin-top: 40px;
-  padding-top: 80px;
-  background-color: #DDD;
-}
+/*Things I would fix:
+  smaller carousel images
+  carousel images all same size
+  padding-left on dropdown options
+  dropdown menu options made clickable
+  Submit button pops up a modal with results
+*/
 
 #midsection {
   background-color: #efcd99;
@@ -12,11 +13,62 @@
   margin-top: 40px;
 }
 
-#blog-background {
-  padding: 20px;
-  background-color: #DDD
+a:link, a:visited {
+  text-decoration: none;
+  color: #bbb;
 }
 
-ul a {
-  text-decoration: none;
+ul {
+  list-style: none;
+  background-color: #593923;
+  padding: 10px 0 10px 20px;
+  border-radius: 5px;
+}
+
+a:hover {
+    color: #b98779;
+}
+
+a:active {
+    color: #999;
+}
+
+h5 {
+  color: #bbb;
+}
+
+#poll {
+  background-color: #593923;
+  padding: 10px 0 20px 20px;
+  border-radius: 5px;
+}
+
+.dropdown {
+  float: left;
+  margin-right: 20px;
+}
+
+.dropdown-menu li {
+  padding-left: 10px;
+}
+
+#blog-background {
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #eee
+}
+
+#inline-img {
+  float: left;
+  width: 10%;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+#footer {
+  min-height: 120px;
+  margin-top: 40px;
+  padding-top: 60px;
+  background-color: #eee;
 }
